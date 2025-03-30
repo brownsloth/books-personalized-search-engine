@@ -1,0 +1,1175 @@
+[
+  {
+    "query": "Meta Post : {{ Hello again, Humans ! }} Hello all,  *(Message to the mods: this is a Meta post, please contact me if something is wrong!)*  # The goodreads-bot Legacy  As you must know if you were already here last year, our beloved bot u/goodreadsbot stopped working in January after having been used **156.631** times on this subreddit by a total of **25.272** different users, because goodreads shut down API access.  As a bored nerd and fellow reader, I decided to start a new toy project: rise our bot back! But because the Goodreads API is now closed, the first task was to build my own Books database... which I did, using Reddit, Goodreads & Google Books.  This new bot called u/goodreads-rebot (\"bot\" + \"reboot\" = \"rebot\".....) is open source (link to source code below). I wanted to thank u/ArtyomR, the author of u/goodreadsbot, for the original idea. I am not u/ArtyomR, but I have great respect for his/her work and its legacy. Thank you!  # How does it work? Just like before! (with more features)  Write `{{Harry Potter}} in your post` or alternatively `{{A Little Life by Hanya Yaniagara}} (notice the typo)` with a **\"by\"**  and the bot will answer with more information about the **book** or the **series**.  The search part is now part of the bot (and not on Goodreads API side), and was quite challenging to handle. **You definitely should specify the author with the \"by\" keyword**, because it helps the Database search.   **Examples:**  `You should read {{Harry Potter}} !` will work, it will recognize it as the name of a **Series**, in that case it will provide information about **the first book of the Series;**  `My favorite book is {{Call Me By Your Name}}` will work too, the bot will try to find a book called **Call Me** by author named **Your Name** (because of the \"by\" keyword...) but it will fail to find one, so as a 2nd try because it's not *that* dumb, it will indeed find a book called **Call Me By Your Name** :)  `Did you read {{1984 by Michael Radford}}?` (notice the wrong author): it will work too even if the author is wrong, because when the search fails using the author, it will try again ignoring it.  # Features  I added a \"Top 2 recommended-along\" section, featuring the 2 books that were the most recommended here on Reddit in the same threads than the book described. It is based on another toy project of mine (\ud83d\ude05), a book recommending algorithm I am working on, which is based on the co-occurences of book titles in Reddit threads. Let me know if you find this new information useful.  # Limitations  As explained before, the bot is based on a book database I build and update as much as I can. The search will sometimes fail to match some existing books, in particular very niche books, or the recent ones. I am working on having the best and up-to-date database as possible, meanwhile sorry for the misses!  Also, the bot is currently not running on other subreddits (like r/booksuggestions), but because the code is really modular, it's just about configurations. FYI this is in the roadmap for the next few days/weeks.  Finally, I may reach some rate posting limits because of low karma. Hopefully, this will be solved soon after some time thanks to your help :)  You will find below more information (links being forbidden in posts).  I think that's it.   See you there!",
+    "books": [
+      "Find Me"
+    ],
+    "id": "16qe09p",
+    "score": 304
+  },
+  {
+    "query": "The one \u201cself help\u201d book that actually changed your and your outlook on life? Comment the one personal development book that actually taught you how to change and helped to improve your character in general.",
+    "books": [
+      "Adult Children of Emotionally Immature Parents,",
+      "The Gift of Fear",
+      "Man's Search for Meaning",
+      "self help",
+      "The Artist Way",
+      "Why Does He Do That"
+    ],
+    "id": "1jmxfca",
+    "score": 139
+  },
+  {
+    "query": "What book left a lasting impact for you and why? Hi all! I'd love to hear book suggestions on those that made a lasting impact for you. It could be that you simply think about it frequently or maybe it was due to the time that you read it. I'm open to any genre!",
+    "books": [
+      "The Magus",
+      "The Power of Now"
+    ],
+    "id": "1jmw6j6",
+    "score": 57
+  },
+  {
+    "query": "Are there any inspiring fiction or nonfiction books about people reinventing themselves or starting over in midlife or beyond? LF inspiring fiction or nonfiction books about people restarting lives in mid 30/40/ 50s or beyond? Dealing with failures and setbacks or lack of motivation   Bonus if women centric. Like women who have to restart after raising children etc.",
+    "books": [
+      "Britt Marie was Here",
+      "Eleanor Oliphant is completely Fine",
+      "The Wind-Up Bird Chronicle",
+      "Britt Marie Was Here",
+      "How the Penguins Saved Veronica"
+    ],
+    "id": "1jn01rj",
+    "score": 20
+  },
+  {
+    "query": "For ebook readers, what book have you liked so much that you bought a physical copy of it? Just want to get ideas on what physical books are worth buying and spending money on. Thank you!",
+    "books": [
+      "Our Wives Under The Sea",
+      "Piranesi",
+      "The dawn of everything",
+      "The Nightingale"
+    ],
+    "id": "1jn5nu6",
+    "score": 7
+  },
+  {
+    "query": "A very engaging book that you finish in one sitting Fiction or non fiction books that you couldnt\u2019t put down",
+    "books": [
+      "Into thin air",
+      "The Giving Tree"
+    ],
+    "id": "1jmpi4o",
+    "score": 69
+  },
+  {
+    "query": "\u201cCompetence porn\u201d books Looking for books about people being extremely good at their jobs. I\u2019ll take any profession, any genre.",
+    "books": [
+      "The Day of the Jackal",
+      "Master & Commander",
+      "Sabriel"
+    ],
+    "id": "1jmn0ns",
+    "score": 84
+  },
+  {
+    "query": "Need a good book for my flight Hi everyone! I\u2019m flying cross country in a week and would love some book suggestions for the long flight. I have ADHD so I need a book that grabs my attention and is easy to follow, nothing slow paced. I prefer Non Fiction but will read fiction if it\u2019s really good. My reading interests are anything true crime, history(American Revolution, WW2 ect), self help (depression, anxiety, adhd) & fitness/weight loss.  Thanks in advance! \ud83d\ude03",
+    "books": [
+      "9/11 Unmasked",
+      "The Tasters",
+      "The Battle for Stalingrad*",
+      "Enemy at the Gates: The Battle for Stalingrad"
+    ],
+    "id": "1jn1tsz",
+    "score": 7
+  },
+  {
+    "query": "Please suggest A book where you could tell early on that you were in For a great story. What is a book you enjoyed where you could tell from the first chapter that this was going to be a great story?  Guy Gavriel Kay and Thomas Perry are two examples of authors that often hit me like that.",
+    "books": [
+      "To Kill A Mockingbird",
+      "A Gentleman in Moscow",
+      "The Nightingale"
+    ],
+    "id": "1jmrq85",
+    "score": 27
+  },
+  {
+    "query": "Self help book, focusing on OCD Hey, all! I am not usually one for self help books but I am really struggling with my OCD at the moment, to the point where it\u2019s nearly too much to stand. Can anyone suggest a book that I could read that may help? I figure this might ease it a bit considering I\u2019m handling this all on my own. Thanks in advance!",
+    "books": [
+      "The Mindfulness Workbook for OCD",
+      "Overcoming Unwanted Intrusive Thoughts",
+      "Mastering Intrusive Thoughts",
+      "The OCD Workbook",
+      "Chatter"
+    ],
+    "id": "1jn3vfx",
+    "score": 3
+  },
+  {
+    "query": "Feel-good books. Hii guys!  Could you please recommend some feel-good books with a happy ending? I\u2019m currently in need of one and feel like reading something light, funny, or romantic.  Thank you!",
+    "books": [
+      "The House Witch",
+      "The Very Secret Society of Irregular Witches",
+      "Act Your Age, Eve Brown",
+      "Boyfriend Material",
+      "Miss Percy\u2019s Pocket Guide to the Care and Feeding of British Dragons",
+      "Last Call at the Local",
+      "Small Miracles",
+      "Bookshop on the Corner",
+      "Mrs. Nash's Ashes",
+      "Foster"
+    ],
+    "id": "1jmzskl",
+    "score": 8
+  },
+  {
+    "query": "Books that have beautiful and complex relationships that go beyond romance I\u2019m really craving a book that has complex and strong relationships that aren\u2019t the stereotypical romantic love. I\u2019m talking like the two best friends that would tear the world down for each other or family/found family dynamics that really emphasize the emotional and heartfelt impact those type of relationships can have on a person.  It doesn\u2019t even necessarily need to not have romance, but I\u2019m not looking for that to be the strongest point of the story. A great example of this from a book I recently read (The Poppy War) is Rin and Altan\u2019s very interesting dynamic as the last two of their race but also with a strong current of anger/tension and love on both sides.   Please help I need this vibe in my life \ud83d\ude4c",
+    "books": [
+      "The Poppy War",
+      "*Still Life*",
+      "Still Life",
+      "Witch King"
+    ],
+    "id": "1jn2xky",
+    "score": 4
+  },
+  {
+    "query": "Recs for Morally Gray Characters and No Clear \u201cRight Answers\u201d I\u2019m in the mood for a fiction book that really digs into moral gray areas. Ones where the characters face complex dilemmas and there is no obvious right answer.   I want to read something that makes me think, makes me feel conflicted and maybe even uncomfortable. I want to be left questioning the character\u2019s decision sorta like \u201cI can see why they did that but also\u2026 yikes\u201d  I\u2019m open to any genre. I\u2019m a chameleon :)   So whats your favorite morally complex book?!",
+    "books": [
+      "The Black Company",
+      "BRING UP THE BODIES"
+    ],
+    "id": "1jmyztw",
+    "score": 6
+  },
+  {
+    "query": "Books like \u201cTomorrow and Tomorrow and Tomorrow\u201d I love: 1. Complex characters as they are entangled in each other\u2019s lives  2. Creative people being successful  3. Being set over a long period of time  4. How real the book felt  5. General vibes  6. The tech industry and smart people inventing stuff",
+    "books": [
+      "The Art of Fielding",
+      "The Interestings",
+      "The Ensemble",
+      "Tomorrow and Tomorrow and Tomorrow",
+      "Version Control",
+      "One Day",
+      "\"The Magicians\"",
+      "The Magicians"
+    ],
+    "id": "1jmuts9",
+    "score": 9
+  },
+  {
+    "query": "Fantasy for a non-fantasy reader Hey all!  I read both fiction and non-fiction, but when it comes to fiction, I tend to avoid fantasy. I enjoy romance, crime, drama - basically anything as long as it feels grounded in reality. I\u2019m not entirely sure why fantasy has never appealed to me, but I think it\u2019s partly because I worry the worlds will be too complex to understand, and I find that fantasy has to be particularly well-written to maintain my suspension of disbelief. I also tend to connect more with stories when they feel like something that could actually happen.  That being said, I\u2019m going through a rough time mentally and could really use a book that lets me escape into a different world - something immersive, engaging, and that I can\u2019t put down. I don\u2019t want anything with a super complex world or lore, just an easy-to-get-into story that still feels captivating. Ideally, it wouldn\u2019t have any heavy or dark themes - I know cozy has been overused lately but\u2026 yeah that\u2019s the vibe I\u2019m looking for. It can be a standalone or a series.  If it is any help, the only fantasy books I remember enjoying were the Stardust series by Linda Chapman, which I read as a kid. I liked that it had a fantasy element and some suspense while still being set in the \u201creal world\u201d (maybe I should reread it now at 27? \ud83d\ude05)  I know this is a bit vague, but I\u2019d love any recommendations you think might fit. Thanks in advance - I appreciate any suggestions!",
+    "books": [
+      "The Very Secret Society of Irregular Witches",
+      "The Goblin Emperor",
+      "The Night Circus",
+      "Legends & Lattes",
+      "Spinning Silver",
+      "The Magicians",
+      "The Ten Thousand Doors of January",
+      "The Paper Magician",
+      "Spinning Silver",
+      "The warlord chronicles"
+    ],
+    "id": "1jmzbw8",
+    "score": 6
+  },
+  {
+    "query": "Cold war era Spy book from Soviet perspective Hi,  I like spy books and in general books about the cold war era. Or books set in 1940s-1990s. Books like the spy who came in from the cold, the devil's alternative etc. I'm looking for recommendations of similar fiction books (in English) but written by Russian/Soviet authors from their perspective.  Thanks!",
+    "books": [
+      "Child 44"
+    ],
+    "id": "1jn2ft9",
+    "score": 3
+  },
+  {
+    "query": "what's a good true story book? give me your best true stories",
+    "books": [
+      "Endurance",
+      "Unbroken",
+      "Say Nothing",
+      "Endurance",
+      "Destiny of the Republic",
+      "The Right Stuff",
+      "Into Thin Air"
+    ],
+    "id": "1jmn6mm",
+    "score": 24
+  },
+  {
+    "query": "I really want a novel about reality tv I LOVE reality tv (Vanderpump Rules, Love Island, Love is Blind, Survivor, Top Chef, Teen Mom, The Bachelor, Traitors, Drag Race etc), and I have this vision of reading a book that shows like the inner-workings of being on a reality tv show. In my wildest dreams it goes between perspectives of a person being on the show and a person who watches the show.   I don\u2019t know if such a book exists, but I\u2019ll take any suggestions that might align! And if anyone here is a writer and wants to write it, I\u2019ll be your first reader!!",
+    "books": [
+      "The Family Experiment",
+      "Cue the Sun!",
+      "Chain-Gang All-Stars",
+      "Dead Famous",
+      "Naked and Afraid",
+      "Patricia Wants to Cuddle",
+      "The Charm Offensive",
+      "Rosaline Palmer Takes the Cake",
+      "type"
+    ],
+    "id": "1jmoalw",
+    "score": 21
+  },
+  {
+    "query": "Suggest me a book full of atemporal human wisdom I want a book that is not related to current events or trends, but one that contains knowledge and life tips and insights that would be useful to any human in history or in the future",
+    "books": [
+      "evergreen",
+      "Tao Te Ching",
+      "The Art of Worldly Wisdom",
+      "Letters from a Stoic",
+      "The Prophet",
+      "Meditations",
+      "When Breath Becomes Air",
+      "The Book on the Taboo Against Knowing Who You Are"
+    ],
+    "id": "1jmv4ss",
+    "score": 8
+  },
+  {
+    "query": "Books set in Mongolia I\u2019d like to read some fiction books set in Mongolia, preferably modern Mongolia, better if it\u2019s written by a Mongolian, best if it\u2019s written by a Mongolian woman.",
+    "books": [
+      "The Blue Sky"
+    ],
+    "id": "1jn70xb",
+    "score": 1
+  },
+  {
+    "query": "Looking for a collection of short western stories Ill be blunt.  I have an uncle that only reads in the bathroom.   He subscribes to readers digest because they have short stores that are only a few pages long.  He was saying a few years back that no one writes wild west or frontier stories in decades  I would love to find a collection of very short stories that I can give him as a gift.   Even if its an old publication that i can still manage to find on the used market.  Let me know if you have any ideas.",
+    "books": [
+      "The Luck of Roaring Camp and Other Stories"
+    ],
+    "id": "1jn317u",
+    "score": 2
+  },
+  {
+    "query": "Looking for some books for my 10 yr old She\u2019s a pretty good reader for her age, some books/series she\u2019s read and loved are Harry Potter, Percy Jackson, Skyward, Aurora Rising, and Alex Rider. Looking for books that she\u2019ll enjoy but might challenge her a little. Was debating Hunger Games. What are some suggestions you have?",
+    "books": [
+      "Artemis Fowl",
+      "So You Want to be a Wizard",
+      "The Hunger Games",
+      "The Secret Garden",
+      "A Little Princess",
+      "Pollyanna Grows Up",
+      "Pollyanna",
+      "-His Dark Materials",
+      "- Ender\u2019s Game",
+      "Skyward",
+      "Aurora Rising",
+      "The Gilded Wolves",
+      "Illuminae"
+    ],
+    "id": "1jmukx9",
+    "score": 8
+  },
+  {
+    "query": "Suggest me a book/series that is thrilling to read for both guys and girls book club Hello all! Me and my friends wanted to get into reading this year, and we wanted to read something that was fun for both guys and girls! Though, we are all beginners, so we don't have any knowledge of books that are out that would be good for us!  Some things that we like in a book would be themes of suspense, thriller, plot twists, drama, romance, fantasy, dystopia, murder mystery, great world building, character development.   Not all of these have to be in one book, but these are just elements that we like!  Huge bonus if the book has a pair of star crossed lovers, as one of the readers love that trope haha  We would honestly just love a book that is exciting to read each week and that would create fun discussions and theorizing sessions!   thank you so much! we really are eager to start our journey on reading",
+    "books": [
+      "The Snow Queen",
+      "* Six Wakes",
+      "* Red Rising",
+      "The Left Hand of Darkness",
+      "* Project Hail Mary",
+      "* Klara and the Sun",
+      "* I Who Have Never Known Men",
+      "* The Left Hand of Darkness",
+      "The Long Way",
+      "* The Galaxy and the Ground Within",
+      "* Gideon the Ninth",
+      "* The Snow Queen",
+      "Beyond the Sea"
+    ],
+    "id": "1jmvbl3",
+    "score": 7
+  },
+  {
+    "query": "Just finished Man\u2019s Search for Meaning and Thousand Splendid Suns\u2026 what should I read next? Don\u2019t ask me how i\u2019m doing\u2026 but i\u2019m looking for more books in this genre. Something about Frankl and Hosseni\u2019s writing\u2026. It just does something inside. I need more literature that stirs me the same way. Please send help. Also, thoughts on Before the Coffee gets cold by Kawaguchi?",
+    "books": [
+      "Pachinko",
+      "The Bluest Eye",
+      "Human Acts",
+      "Martyr!",
+      "Beloved"
+    ],
+    "id": "1jmsid9",
+    "score": 9
+  },
+  {
+    "query": "Books on the rise of the alt-right and antifeminism Has anyone written any good books recently on the worrying rise of these reactionary attitudes in the west?",
+    "books": [
+      "Men Who Hate Women",
+      "Doppelganger",
+      "Neoliberal",
+      "Meme Wars: The Untold Story of the Online Battles Upending Democracy in America",
+      "\"Meme Wars: The Untold Story of the Online Battles Upending Democracy in America\"",
+      "Invisible Women"
+    ],
+    "id": "1jmtfl7",
+    "score": 9
+  },
+  {
+    "query": "Recent children\u2019s/juvenile literature worth reading as an adult? I\u2019m interested in fully rounding out my library with children/juvenile literature.   I have most of the classics like Anne of Green Gables, A Little Princess, etc.   I also have some of the books that are from my own childhood and YA years like A Series of Unfortunate Events, Harry Potter, Hunger Games, Shadowhunters, and Twilight (not particular great literature, but gives you an idea of the time frame I was reading this genre regularly).   But I have no idea what has been released semi-recently (within the last 15 ish years, I would say) since I\u2019ve stopped reading in those genres as much as before.   What other books aimed at a younger audience is still worth reading as an adult? It can be something that simply also appeals to an adult audience (like Series of Unfortunate Events) or where the story is just so interesting, it pulls you in (a general theme in YA, to be honest)   So what\u2019s out there now?",
+    "books": [
+      "The Gentleman's Guide to Vice and Virtue",
+      "The Night Gardener",
+      "- The Night Gardener",
+      "Every Heart a Doorway",
+      "A Deadly Education",
+      "Strange the Dreamer",
+      "The Cruel Prince",
+      "Aristotle and Dante Discover the Secrets of the Universe",
+      "Six of Crows",
+      "Lore of the Wilds",
+      "Mooncakes",
+      "Taproot",
+      "An Ember in the Ashes",
+      "The Gentleman\u2019s Guide to Vice and Virtue",
+      "The Water and the Wild",
+      "The Doorway and the Deep",
+      "The Current and the Cure",
+      "The Thief Lord",
+      "Hello, Universe",
+      "The Lie Tree",
+      "Midwinterblood",
+      "The Girl Who Drank the Moon",
+      "Small Spaces",
+      "- \"Better With Butter\"",
+      "- \"The Extremely Inconvenient Adventures of Bronte Mettlestone\"",
+      "- \"Small Spaces\"",
+      "When You Reach Me",
+      "Better With Butter",
+      "The Extremely Inconvenient Adventures of Bronte Mettlestone"
+    ],
+    "id": "1jn1wds",
+    "score": 2
+  },
+  {
+    "query": "Seeking a book for self worth and depression.. I\u2019m on a journey where I can\u2019t just sit and do nothing anymore. I\u2019m looking for a good read for an individual struggling with self worth/love and depression.",
+    "books": [
+      "Siddhartha",
+      "Hyperbole and a Half",
+      "Tiny beautiful things",
+      "Overcoming Unwanted Intrusive Thoughts",
+      "You Will Get Through This Night",
+      "The Upward Spiral",
+      "The Self Esteem Workbook",
+      "Chatter",
+      "Retrain Your Brain"
+    ],
+    "id": "1jn5855",
+    "score": 1
+  },
+  {
+    "query": "Books for someone fighting to love themself Maybe a little history would help.   40/m. Second marriage. 2 kids.  5 years in recovery for alcohol.  Anxiety/Depression/ADHD.  Chronic infidelity.  Looking into SLAA.   Recently discovered a lot of my issues have to deal with my parents not showing affection/making me feel cared about/loved, etc.   I\u2019m working with a new therapist and the real goal is to focus on myself, getting to know who I am and actually liking the person I am, rather than hating myself. I feel like I got a long road to go and half of my life is already over.   I\u2019m completely open to any suggestions you all may have. Thank you.",
+    "books": [
+      "Healing the Shame that Binds You",
+      "No Bad Parts",
+      "Homecoming",
+      "The Body Keeps the Score",
+      "Breaking the Cycle of Abuse",
+      "Every Memory Deserves Respect",
+      "The Self Discovery Journal",
+      "The Upward Spiral",
+      "Self Talk Guided Journal",
+      "On Repentance & Repair",
+      "How to Meet Yourself",
+      "Born For Love",
+      "Adult Children of Emotionally Immature Parents Guided Journal",
+      "Retrain Your Brain",
+      "Overcoming Unwanted Intrusive Thoughts",
+      "Securely Attached",
+      "The Book You Wish Your Parents Had Read",
+      "It Didn\u2019t Start With You",
+      "The Self Esteem Workbook",
+      "Empathy",
+      "Chatter"
+    ],
+    "id": "1jmusso",
+    "score": 4
+  },
+  {
+    "query": "Best reacher books Love the reacher show, reading 61 hours, loving it. What's a few other of the good ones of reacher books to read?",
+    "books": [
+      "61 Hours",
+      "Worth Dying For"
+    ],
+    "id": "1jmupt2",
+    "score": 4
+  },
+  {
+    "query": "A mystery, suspense, action, thriller, and/or horror with a disabled or differently abled protagonist. I saw a movie recently where the protagonist had a disability and showed the precautions he had to make to allow him to survive both in his everyday life and later when he was attempting to rescue someone. It also showed how he was able to use to disability as an advantage.   I\u2019m curious now if there are books with characters who have what appears to be a disability but end up helping them survive. Whether that\u2019s a physical problem like blindness, deafness, amputation, or mental like autism, ocd, or something like that.",
+    "books": [
+      "Duma Key",
+      "The Dentist"
+    ],
+    "id": "1jmw26m",
+    "score": 3
+  },
+  {
+    "query": "I desperately need this specific type of a detective-horror book i haven't read that many detectives so im open to any suggestions. i need a detective book that has body horror/horror in general elements, like softcore gore, but without the supernatural stuff. i really want to read about human made horrors beyond comprehension that make you get chills, like, the unexplailable mystery has to be created by humans. like the things you'd hear in true crime stories about cannibals, but i can't enjoy true crime no matter how twisted and interesting the story is. i need fiction. also i heavily dislike romance in the same bottle with horror unless its queer and isn't all up in your face so yeah",
+    "books": [
+      "All the Sinners Bleed"
+    ],
+    "id": "1jmxs8o",
+    "score": 3
+  },
+  {
+    "query": "non-fiction books that encourage you to dream big and show you how to do it i\u2019ve been having trouble mustering up hope lately, and i felt a little spark come back to life within me and i want to keep it going. are there any books that give you actionable ways to understand what you want from life and shift your habits to match your desired trajectory?",
+    "books": [
+      "The Artist\u2019s Way",
+      "Do Over",
+      "Rejection Proof",
+      "Getting Things Done",
+      "\"Room to Dream\"",
+      "Room to Dream",
+      "The Magic of Thinking Big",
+      "\"The Magic of Thinking Big\"",
+      "Hidden Potential"
+    ],
+    "id": "1jmxo4n",
+    "score": 3
+  },
+  {
+    "query": "Light hearted book with some meat Our book club is in a slump. The last books we\u2019ve read have either been so boringly slow with such little plot that I\u2019ve DNFed them or included a male character that is physically or mentally abusive.   We need to lighten it up and will keep our attention.\u2014- For example, I just personally read Stephanie Plums 30th book which was the light we\u2019re looking for, but the storyline is to prescriptive to be something the club would enjoy.   Any recommendations??? Bonus points for fantasy. -100 points for toxic male characters.",
+    "books": [
+      "Long Way to a Small, Angry Planet",
+      "Psalm for the Wild Built",
+      "Nothing to See Here"
+    ],
+    "id": "1jn4fej",
+    "score": 1
+  },
+  {
+    "query": "I need new books So basically, I want books that will emotionally destroy me, not necessarily because the theme/plot is sad but because I\u2019ll love the characters and story and just feel their emotions too.   I mostly read fantasy so I would like recommendations to stick to that, and just to put examples of what I mean in the type of books I\u2019m looking for: Spoilers ahead for the following books: Onyx Storm, Shades of Magic trilogy, the Life of Addie LaRue, Under the whispering door, Mistborn era1  Onyx Storm destroyed me because of how attached I\u2019m to the MMC because of what he goes through even if the story isn\u2019t inherently sad, same thing for Kell in the second book of shades of magic.  The ending of Addie LaRue wrecked me as did the ending of UWD.  The last book of Mistborn absolutely destroyed me with the characters\u2019 ends and everything they went through too!  This are some of the most recent books I\u2019ve read that have truly left me with an ache whenever I\u2019ve read them or think about them so I\u2019m looking for similar stories!",
+    "books": [
+      "The Priory of the Orange Tree"
+    ],
+    "id": "1jn3grc",
+    "score": 1
+  },
+  {
+    "query": "Looking for books about willpower, determination, motivation etc. Fiction and non-fiction Basically what the title says. I want to work on my character and personal competency and willpower and motivation is a part I want to really hone in. Any help is greatly appreciated.",
+    "books": [
+      "The Power of the Now"
+    ],
+    "id": "1jmyqai",
+    "score": 2
+  },
+  {
+    "query": "Books that I can acquire from my library Looking for trad published novel recs that I can hopefully check out from my library. My preferred genres are scifi, fantasy, and horror. Will read romance, historical, nonfiction (including true crime), literary, classics, light novels, thriller, and mystery though. Middle grade and young adult is also okay. Bonus points if it\u2019s translated, lgbtq+, fungus related or features a robot/ai.  Things I dislike in books: cozy fantasy, high spice, pregnancy.  Not looking for novellas, graphic novels, manga, self published or indie published. My library doesn\u2019t buy self or indie pub sadly.   I'm planning to only read these books physically so if you think the audiobook is the best route you can recommend it but state so or call it a bonus rec.",
+    "books": [
+      "A Psalm for the Wild Built",
+      "Entangled Life",
+      "Light From Uncommon Stars",
+      "A Closed and Common Orbit",
+      "Once Upon a Tome",
+      "Winter\u2019s Orbit",
+      "The Tainted Cup",
+      "The Gentleman\u2019s Guide to Vice and Virtue",
+      "Silver in the Wood",
+      "Mortal Follies",
+      "The Art Thief",
+      "Someone You Can Build a Nest In",
+      "Mudlark",
+      "Binti",
+      "How to Behave Badly in Elizabethan England",
+      "Caveat Emptor",
+      "To Shape a Dragon\u2019s Breath",
+      "Last Night at the Telegraph Club",
+      "Boyfriend Material",
+      "The Remains of the Day"
+    ],
+    "id": "1jn2y8u",
+    "score": 0
+  },
+  {
+    "query": "Nonfiction True Crime Books I read \"Outrageous Conduct\" and really liked how detailed it was, without coming off as pretentious - i.e. use of big words, just reporting of the facts in a simple, easy to understand manner that was also very thrilling. Are there any other books like that, whether it be true crime or just history?",
+    "books": [
+      "Columbine",
+      "Hell\u2019s Angels",
+      "Outrageous Conduct",
+      "Midnight in the Garden of Good and Evil",
+      "Say Nothing",
+      "The Journalist and the Murderer",
+      "just the facts.",
+      "The Stranger in the Woods",
+      "The Feather Thief",
+      "I Know Who You Are",
+      "The Foundling",
+      "The Art Thief"
+    ],
+    "id": "1jmvglq",
+    "score": 3
+  },
+  {
+    "query": "Mystery/thriller set in a national park? Super specific, I know. But the theme for my book club this month is to read a book set in or about a national park (fiction or non-fiction). My mom is looking for something that\u2019s a mystery or thriller that would fit the topic. She\u2019s not a big reader, but is getting there thanks to the book club! Anyway, we\u2019re having trouble finding a book that sounds good for her, and mystery/thrillers are usually a good bet! Thanks!",
+    "books": [
+      "Flight Risk",
+      "Glacier Mystery",
+      "Boundary Waters",
+      "The Girl who Loved Tom Gordon"
+    ],
+    "id": "1jmxyt6",
+    "score": 2
+  },
+  {
+    "query": "help my dad find books to read so my dad was complaining about not finding any more books he likes, he couldn\u2019t point to any genres or tags. His favorite authors are T.C. Boyle and Ian McEwan. He also likes William Gibson and Game of Thrones. Maybe you guys have any recommendations of similar authors or books?  Thank you :)",
+    "books": [
+      "The Anomaly",
+      "A Prayer for Owen Meany",
+      "Sh\u014dgun"
+    ],
+    "id": "1jmxw4h",
+    "score": 2
+  },
+  {
+    "query": "What is one book that you come back to time and time again? I\u2019m so curious to know what yours is. It could be a comfort read that feels like being wrapped in a warm blanket every time you pick it up, or one that reveals something new each time you read it.   Mine is To Kill a Mockingbird. I must have read it 6 or 7 times. I find a new depth or something new to love in the characters each time I read it.   What\u2019s yours?  Edit: Wow! What an incredible response! I\u2019ve tried to reply to as many as I can but I\u2019m reading all the suggestions and creating an epic TBR!",
+    "books": [
+      "*Piranesi*",
+      "Piranesi",
+      "Lark Rise to Candleford",
+      "Starship Troopers",
+      "Slaughterhouse-Five"
+    ],
+    "id": "1jm46sv",
+    "score": 254
+  },
+  {
+    "query": "Books that help navigate challenging times in life Hi everyone, I'm currently feeling a little lost. Last year I llost my niece and mom within a couple of weeks of reach other. Pressures from my job are increasing, and last month I had a nasty leg break. I have a 3 year old toddler who is great and I don't feel I am a good enough parent to. Any book recommendations that might help me navigate some of this? Thanks!  P.s. I am getting appropriate professional help for all of this, but it would be great to have some books that can help me process things when I'm alone.",
+    "books": [
+      ", Stumbling Stones",
+      "The Midnight Library",
+      ", My Year of Magical Thinking",
+      "Radical Acceptance",
+      "The Year of Magical Thinking",
+      "The Gifts of Imperfection",
+      "When Breath Becomes Air",
+      "The Body Keeps the Score",
+      "The Space Between the Stars"
+    ],
+    "id": "1jmuvlf",
+    "score": 3
+  },
+  {
+    "query": "Books about details of Holocaust or Untermensch Hello I apologize for the dark subject but I am trying to learn about the truth and details about the Nazi Holocaust. Today in Austin Texas there was a Nazi eguenics conference at the university of Texas campus, this got me curious.   Specifically about the industrialists and the wealthy who sponsored the companies involved in the death camps. The process of the death camps. Stories of the people involved. I am also curious about the development of Untermensch and the Nazis killing disabled people.   Bonus points for people who can find books about linking the American antellebum South with inspiring Hitler.   I have already read Annie jacobson's operation paperclip, poisoner in chief by Talbot, and I'm now reading the devil's chessboard the link between the CIA and the Nazis. As well as blitzed and the other books by that author.    Thank you I appreciate it.",
+    "books": [
+      "The Coming of the Third Reich"
+    ],
+    "id": "1jn27x7",
+    "score": 0
+  },
+  {
+    "query": "Looking for stories where \"A Giant helps a little person/being I found out about 2 VR games with this concept and I really like it.  One it's \"Moss\" where you help a little mouse as a Giant invisible being.   And the second one it's \"Ghost Giant\" where you help a young cat on a suburban adventure.  I want to ask if you know about books or even fanfics with the same Concept. I really like it and I see a lot of potential.  Thanks in advance.",
+    "books": [
+      "The BFG"
+    ],
+    "id": "1jmutgk",
+    "score": 3
+  },
+  {
+    "query": "Suggest me a book that feels like the Netflix's show Dark. Ever since I've watched that show, I am looking for anything that scratches that itch. And I don't mind science heavy books (most of the times, I can understand them). So suggest me something. If its a book series then its even better, the longer the better (no pun intended!)",
+    "books": [
+      "Recursion",
+      "Annihilation",
+      "The Gone World"
+    ],
+    "id": "1jmh1k4",
+    "score": 30
+  },
+  {
+    "query": "Suggest me your favorite self help book that isn\u2019t technically a self help book. Molly Shannon\u2019s recent memoir comes to mind for me. So inspiring with a very bleak yet fun vibe that resonates with me.",
+    "books": [
+      "Meditations",
+      "What My Bones Know",
+      "Furiously Happy",
+      "Misery",
+      "The Magic Apple Tree",
+      "Not by Accident"
+    ],
+    "id": "1jmmk0v",
+    "score": 9
+  },
+  {
+    "query": "Recommend me a book :] I love a good romance story. I've read The Folk of the Air series, The Empyrean Series,  The Red Queen series. Lots of fantasy and romance. I do like a good classic like Anthem by Ayn Rand. I also want to read a good emotional story. Any requests?",
+    "books": [
+      "- Dream by the Shadows",
+      "Quicksilver",
+      "Swordcrossed",
+      "These Hollow Vows",
+      "Spinning Silver",
+      "Emily Wilde\u2019s Encyclopaedia of Faeries",
+      "From Blood and Ash",
+      "Mortal Follies",
+      "The Serpent and the Wings of Night",
+      "The Night Market",
+      "Small Miracles",
+      "The Emperor and the Endless Palace",
+      "The Girl in a Swing",
+      "Kink",
+      "Labyrinth"
+    ],
+    "id": "1jn1nt6",
+    "score": 1
+  },
+  {
+    "query": "Suggest me a book you loved where the cover made you read it in the first place. I want to judge a book by its cover! Suggest your favorite books with your favorite covers! I don't have a preference on genre or topic.",
+    "books": [
+      "A Psalm For The Wild Built",
+      "Valley of the Dolls",
+      "Starter Villain",
+      "My Best Friend\u2019s Exorcism",
+      "Scorched Grace",
+      "Frankenstein In\u00a0Baghdad",
+      "Sweet, Soft, Plenty Rhythm",
+      "Freshwater",
+      "Lucky Red",
+      "Yume",
+      "Welcome to Lagos",
+      "Same Bed Different Dreams",
+      "Ponti",
+      "Body Work",
+      "Land of Big Numbers",
+      "From a Low and Quiet Sea",
+      "Luster",
+      "Where the Crawdads Sing",
+      "The Master and Margarita"
+    ],
+    "id": "1jmq8fm",
+    "score": 5
+  },
+  {
+    "query": "Favorite Poetry recommendations I\u2019m new to poetry so am not sure what I like yet?",
+    "books": [
+      "A Thousand Mornings",
+      "Space Struck",
+      "How to Communicate",
+      "* *The Poet X*"
+    ],
+    "id": "1jmtogg",
+    "score": 3
+  },
+  {
+    "query": "Where to start with Japanese literature? I (37m) from the US and have recently been seeing Japanese literature popping up for me on Facebook, which has made me intrigued. I practice Zen Buddhism (for years) and gravitate towards concepts such as impermanence, interconnection, oneness with nature/animals, stillness, gratitude, bittersweet, Wabi Sabi, etc.   Could you suggest some books you think may be up my alley?   I\u2019m open to all types of books from slice of life human dramas to more fantastical/magical genres. I\u2019d appreciate more mature characters given my age versus young adult.   Thanks in advance!",
+    "books": [
+      "Tokyo Ueno Station",
+      "Kokoro",
+      "In Praise of Shadows",
+      "The Makioka Sisters",
+      "Memoirs of A Polar Bear.",
+      "The Memory Police",
+      "The Coffee Gets Cold",
+      "The Devotion of Suspect X*",
+      "The Miracles of the Namiya General Store",
+      "The Devotion of Suspect X"
+    ],
+    "id": "1jmolcr",
+    "score": 6
+  },
+  {
+    "query": "Books (preferably queer) about loneliness and trauma? I really liked  the autobiography My Lesbian Experience with Loneliness by Nagata Kabi.   She captured that feeling of feeling broken your whole life, having extreme social anxiety, and spending forever to just to feel adequate enough to get to the beginning line that everyone else seems to start at\u2026   Are there any other books that deal with that kind of topic? I would prefer nonfiction but fiction is also okay.",
+    "books": [
+      "The Well of Loneliness",
+      "Glass Cathedral",
+      "On Earth We're Briefly Gorgeous",
+      "Pulse",
+      "*Fun Home*",
+      "Fun Home",
+      "Detransition, Baby",
+      "The Discomfort of Evening",
+      "Daddy Issues",
+      "Long Live the Post Horn!",
+      "A Man Called Ove",
+      "I\u2019m Glad My Mom Died",
+      "Fun Home",
+      "Punch Me Up to the Gods",
+      "The Starless Sea",
+      "*Mean Little deaf Queer*",
+      "Mean Little deaf Queer",
+      "Solo Dance"
+    ],
+    "id": "1jmqqg7",
+    "score": 3
+  },
+  {
+    "query": "Suggest me a book about the history and science of ayahuascua I truly enjoyed michael Pollan's how to change your mind. Recently I've become more curious specifically about ayahuascua and I would like to learn more of the history and science behind it.  However I'm not looking for a load of new age mumbo jumbo, stuff that's rooted in the details we know.  Thanks!",
+    "books": [
+      "The Fellowship of the River",
+      "*The Fellowship of the River*"
+    ],
+    "id": "1jmp19z",
+    "score": 5
+  },
+  {
+    "query": "Suggest me a good book related to history of food I am interested in knowing how the food has evolved; the cultural and anthropological aspects of it. I tried to find a book like it on Amazon, but I couldn\u2019t. Please suggest me something like this",
+    "books": [
+      "An Edible History of Humanity",
+      "\"An Edible History of Humanity\"",
+      "The Omnivore's Dilemma: A Natural History of Four Meals",
+      "The Cooking Gene",
+      "Catching Fire: How Cooking Made Us Human",
+      "Flavors of Empire",
+      "Dubious Gastronomy",
+      "Much depends on Dinner",
+      "Frozen Water Trade"
+    ],
+    "id": "1jmjmmn",
+    "score": 11
+  },
+  {
+    "query": "Just got a Kindle, what would you recommend for fantasy books on Kindle Unlimited As the title reads, I just got a kindle and am looking for fantasy series that are on Kindle Unlimited or even just one book in the whole series.",
+    "books": [
+      "The Shadow of What Was Lost"
+    ],
+    "id": "1jmqei8",
+    "score": 4
+  },
+  {
+    "query": "Suggest me a book after reading long fantasy books I\u2019m looking for a palette cleanser to read in between fantasy series, I love them but they are long and I think I need a little break. Looking for a 250-300 page, enjoyable read that I don\u2019t want to put down. I like fiction and outside of fantasy enjoy something romantic or mysterious.   Thanks!",
+    "books": [
+      "BlackTop Wasteland",
+      "Project Hail Mary",
+      "Dark Matter",
+      "D'Shai",
+      "A Lush and Seething Hell",
+      "The Last Unicorn"
+    ],
+    "id": "1jmzy97",
+    "score": 1
+  },
+  {
+    "query": "3 chapters away from finishing A court of silver Flames Hey everyone so I\u2019m almost done with the series, I know afterward I\u2019ll be left feeling empty and need something that is similar to this and prefer books with minimal sexual content. Please give me series recommendations that I can check out",
+    "books": [
+      "- Dream by the Shadows",
+      "The Drowned Woods",
+      "A Deadly Education",
+      "By the Orchid and the Owl",
+      "Bride of the Shadow King",
+      "The Cruel Prince",
+      "Queen of Roses",
+      "The Bookshop and the Barbarian",
+      "Spinning Silver",
+      "Running Close to the Wind",
+      "Emily Wilde\u2019s Encyclopaedia of Faeries",
+      "Throne of Shadows",
+      "Entranced",
+      "The Moonfire Bride",
+      "The Thief",
+      "A Court of Silver Flames",
+      "Beauty and the Beast"
+    ],
+    "id": "1jmuiqw",
+    "score": 2
+  },
+  {
+    "query": "Suggest a book that has the warging experience/vibe ASOIAF & Farseer From AWOIF wiki: \"person with the ability to enter the mind of an animal and control its actions. A skinchanger able to enter the mind of a wolf or dog is known as a warg.\"  What stories involve or have aspects of animals (mythical or not) & humans connecting mind to mind?",
+    "books": [
+      "The House Witch",
+      "Obsidian Tower",
+      "Emily Wilde\u2019s Encyclopaedia of Faeries",
+      "Arrows of the Queen",
+      "His Majesty\u2019s Dragon"
+    ],
+    "id": "1jmz010",
+    "score": 1
+  },
+  {
+    "query": "Books with a comfy rainy day vibe I don\u2019t know how else to explain what I\u2019m looking for and it might be hard to make a suggestion for. What comes to mind is like a rainy northwestern forest or something. I\u2019m just looking for something that really gives off a \u201ccomfy\u201d vibe. It can be any genre really (except horror, but suspense/thriller is fine) and it doesn\u2019t have to be super outstanding, I\u2019m just looking to read something that kind of matches my mood, not exactly something that\u2019s going to hook me with an insane plot or anything (although it\u2019s fine if it does).",
+    "books": [
+      "North Woods",
+      "the Secret History",
+      "The Death of Mrs.",
+      "Summit Lake",
+      "The Inmate",
+      "the Stars Go Dark",
+      "When the Stars Go Dark",
+      "The Death of Mrs. Westaway",
+      "The Good Girl"
+    ],
+    "id": "1jmtxfc",
+    "score": 2
+  },
+  {
+    "query": "Dark Latin American authors like Mariana Enriquez and Roberto Bola\u00f1o I love the works of Mariana Enriquez. I just picked up a collection by Borges and am currently reading 2666 by Bola\u00f1o. I love the characterization steeped in trauma of Enriquez and Bola\u00f1o and also, especially with 2666 so far, the slow, creeping dread. So, basically I'm looking for a book that have great prose, traumatized characters, and gothic tones of dread.",
+    "books": [
+      "Dead Girls",
+      "Fever Dream",
+      "Hurricane Season",
+      "Pedro P\u00e1ramo",
+      "Never Any End to Paris",
+      "Senselessness",
+      "In the Dream House",
+      "Wormwood",
+      "Pink Slime",
+      "Jawbone",
+      "Elena Knows",
+      "Eartheater",
+      "Things We Lost in the Fire"
+    ],
+    "id": "1jml6pk",
+    "score": 7
+  },
+  {
+    "query": "Historical fiction ww1 soldier book Here are my conditions: the soldier must be of the allied forces, it cant be over 350 pages, and he must survive his tour of duty (and preferably not commit suicide at the end either). Other than that it can show every horror of ww1 from mustard gas to trench warfare to shellshocked soldiers.",
+    "books": [
+      "In Memoriam",
+      "War Horse",
+      "Private Peaceful",
+      "A Farewell to Arms",
+      "Three Soldiers"
+    ],
+    "id": "1jmyni4",
+    "score": 1
+  },
+  {
+    "query": "Tween- teen reads Suggestions please for your favorite reads or kid\u2019s favorites for my son who is a big MG Leonard fan, but just growing out of them (having also re-read the whole catalogue)\u2026.not a fan of fantasy, magical, mythological novels though\u2026. Thank you.",
+    "books": [
+      "The Best at It",
+      "The Year My Life Went Down the Toilet",
+      "Out There",
+      "Clean Getaway",
+      "Finding Junie Kim",
+      "The Penderwicks",
+      "Dear Student",
+      "Planet Omar: Accidental Trouble Magnet",
+      "Mexikid",
+      "Kareem Between",
+      "Hoot",
+      "It\u2019s the End of the World and I\u2019m in My Bathing Suit",
+      "El Deafo",
+      "Middle School Misadventures",
+      "Huda F Are You",
+      "The Vanderbeekers of 141st Street",
+      "Weirdo",
+      "Invisible",
+      "Rez Dogs",
+      "Get a Grip Vivy Cohen",
+      "Welcome Back, Maple Mehta-Cohen",
+      "The Strange Case of the Origami Yoda",
+      "The League of Picky Eaters",
+      "The Many Mysteries of the Finkel Family",
+      "Ahmed Aziz\u2019s Epic Year",
+      "Insignificant Events in the Life of a Cactus",
+      "How to Train Your Dad"
+    ],
+    "id": "1jmyir3",
+    "score": 1
+  },
+  {
+    "query": "A book that changed your life Greetings! I am coming out of a very hard time in my life. Things are still hard but I\u2019m finally ready to pick up reading again. I\u2019m craving one of those books that leaves you forever changed- be it fiction, biography, historical, fantasy- I love most genres. I\u2019m open to more metaphysical genres as well. A few of my personal favorites are  Catspaw Brave New World Crime and Punishment The mists of Avalon  Mother Earth Father Sky Ready Player One  I really am open to anything though- what books have moved you, enlightened you, or drawn you in?",
+    "books": [
+      "The Razors Edge",
+      "A Little Life",
+      "Melmoth the Wanderer"
+    ],
+    "id": "1jmydyw",
+    "score": 1
+  },
+  {
+    "query": "Help me spend my 7 Audible credits! Long story short, I haven\u2019t checked this account in months and didn\u2019t realize I was paying for a monthly credit. Now I have 7 credits and no particular book I\u2019m excited about.   I know there\u2019s an audiobook sub and I\u2019ll post there too, but I always get the best book recs from this sub so I\u2019m hoping for some great options.  Here are some books/genres/authors I love:  - **Nonfiction: history and politics**. Interwar Europe and later. I have all Michael Short books, and pretty much anything that\u2019s been written about Moussolini, Hitler, and Putin.  - **Nonfiction: space, quantum physics, philosophy**. I love space and the \u201cbig\u201d mysteries - the relativity of time, what\u2019s on the other side of black holes, how will the universe die?  - **Nonfiction: Corporate true crime**.  Bad Blood, Empire of Pain, The Big Short, etc.   - **Fiction: Dystopia/apocalypse/post-apocalypse.** If a TV show or movie has been made of the book, I\u2019ve read it (examples: Silo, Wayward Pines, Hunger Games, Handmaid\u2019s Tale, The Stand), but I\u2019d love suggestions for a bit more obscure recs  - **Fiction: Literary masterworks**. Not sure how to describe this one, but books that you think should be considered classic or exceptional because of the writing itself. Examples include The Three Body Problem, American War, books by Ben Winters.",
+    "books": [
+      "Team of Rivals",
+      "Bully Pulpit",
+      ", the Circle",
+      ", the Chrysalids",
+      ", the Raj at War",
+      ", the Ministry of Utmost Happiness",
+      "Trotsky in New York",
+      "Shake Hands with The Devil",
+      "The warlord chronicles"
+    ],
+    "id": "1jmshcz",
+    "score": 2
+  },
+  {
+    "query": "looking for an intense horror/mystery/thriller type book i have been out of the reading loop for a few years now. i want to get back into it but i have no idea how to find what i'm looking for.  i really love a murder mystery. or just any kind of mystery in general. but i like ones that are very intense and go all in. my problem is that i will read reviews and people will say it was scary but then to me it wont be. i watch mainly horror movies so maybe thats my problem lol.   honestly even if its not a mystery and more just horror im okay with that too.   so if anyone knows any books that are actually scary and intense please let me know.",
+    "books": [
+      "The Whisper Man",
+      "- The Silent Companions",
+      "- The Shining",
+      "- The Hollow Kind",
+      "Summit Lake",
+      "The Inmate",
+      "The Girl in the Ice",
+      "Choose Me",
+      "The Guest List",
+      "I'm thinking of Ending Things"
+    ],
+    "id": "1jmxe0o",
+    "score": 1
+  },
+  {
+    "query": "Wlw enemies to lovers or arranged marriage/marriage of convenience books? I have read Tryst six venom btw. So the only requirement is the hatred doesn't stem from petty reasons, misunderstandings - it should be an actual conflict or serious dilemma -(I have read Tryst six venom btw)  And the second rec is for any kind of wlw arranged marriage or marriage of convenience situation (they don't have to be enemies to lovers) even fake dating (something like the fiancee farce) would work!  Thanks in advance!!!",
+    "books": [
+      "Written in the Stars"
+    ],
+    "id": "1jmxc9p",
+    "score": 0
+  },
+  {
+    "query": "I need a queer (preferably mlm) book that's emotionally gripping and has a happy ending. I've just finished Red,White and Royal blue and it made me very happy. I need more of that.  Really appreciate your suggestions <3",
+    "books": [
+      "The Charm Offensive",
+      "The House in the Cerulean Sea",
+      "Somewhere Beyond the Sea",
+      "And They Were Roommates",
+      "Boyfriend Material",
+      "Peter Darling",
+      "We Could be So Good",
+      "Aristotle and Dante Discover the Secrets of the Universe"
+    ],
+    "id": "1jmwwhy",
+    "score": 0
+  },
+  {
+    "query": "16 hour flight tomorrow. What should I read? Prefer science fiction, but I'm open to anything fictional. Thanks!",
+    "books": [
+      "Children of Time",
+      "The Sirens of Titan",
+      "Shutter island",
+      "The God of the Woods",
+      "Replay"
+    ],
+    "id": "1jmg938",
+    "score": 17
+  },
+  {
+    "query": "I want a book that is like the show Killing Eve! I loved 7 husbands of Evelyn Hugo because it wasn\u2019t just straight romance I liked the wlw aspect. I also loved that it put me in a whole different world.  I loved Billy Summers because of the crime mixed with fiction, it kept me interested and was just dark enough.  I loved the TV show killing eve for the characters and the wlw aspect but it wasn\u2019t the whole show. It was also a little dark which I liked.  I also liked the hunger games, for the female lead and the dystopia of it.  I think I\u2019m looking for something that isn\u2019t straight people romance, but also isn\u2019t dragons or fairies. I want to get attached to the characters and completely enthralled in their lives. I don\u2019t do well with books that go slow, I lose interest. Please help me out!",
+    "books": [
+      "The Rhythm Section",
+      "Sunburn",
+      "Charon docks at daylight",
+      "1st to die"
+    ],
+    "id": "1jmomuj",
+    "score": 4
+  },
+  {
+    "query": "Looking for fictional road trip novels Not travel memoirs, fictional stories. I'd prefer less romance, too.",
+    "books": [
+      "I'm Starting to Worry About This Black Box of Doom",
+      "The Lincoln Highway",
+      "Into the Beautiful North",
+      "Sing, Unburied, Sing"
+    ],
+    "id": "1jmpkhs",
+    "score": 2
+  },
+  {
+    "query": "Post-Post Apocalypse Subgenre? CE 2,300+ Onwards I love post-apocalyptic worlds. I played the video game Fallout 3 around age eight and since then I've been hooked. *The Road* by Cormac McCarthy is one example of a good post-op genre book I thoroughly enjoyed. Omar El Akkad's *American War* is another great example of utilizing the genre's talent of criticizing today's problems from a bitter, post-modern edge to the lore and the protagonists' struggles.   This week, I want to try reading post-post apocalyptic books. The age of rebuilding society bit by bit, the overcoming of the zombie apocalypse or at least the twilight years of it. Or an antiquity age of the dark age before, maybe hinted at through dialogue or small breadcrumbs to the discerning loreslueth. The Fallout New Vegas experience, in other words.  TL;DR Please send me late post-apocalyptic or post-post apocalyptic book suggestions please. Thank you for reading!",
+    "books": [
+      "The Passage Trilogy",
+      "_Against the Fall of Night_",
+      "Zone One",
+      "Warday",
+      "On the Beach",
+      "The Book of Dave",
+      "The Book of Dave*",
+      "Z For Zachariah",
+      "The Book of Koli"
+    ],
+    "id": "1jmhcqq",
+    "score": 9
+  },
+  {
+    "query": "What is your favorite children\u2019s book?? Mine is definitely The Book of Shadow Boxes by Laura Seeley. The illustrations remind me of my favorite book store that smells like old books and incence with a three legged cat coming up to you for belly rubs \ud83d\udc9a",
+    "books": [
+      "The Velveteen Rabbit"
+    ],
+    "id": "1jm9dop",
+    "score": 38
+  },
+  {
+    "query": "Suggest me \"slice of life\" books, please I recently found out about *Slice of Life*, and I started by watching films like *\u201cPast Lives\u201d* and *\u201cPerfect Days.\u201d*\u00a0I'm usually more of an action/thriller type of guy, but I loved the peacefulness of these works. It got me wondering if there are any books out there that fit the \u201cgenre.\u201d I've only read science fiction and epic fantasy, so I'm looking for books that are more about life, books that could inspire me to *live*, like those two films I mentioned previously have done.  Hopefully my question isn't weird. If it is, then I'm sorry. I just don't know where to find books like this. I haven't really seen any posts on Reddit about this, and Google has only been helpful for films.",
+    "books": [
+      "After Dark",
+      "An Accidental Tourist",
+      "A Gentleman in Moscow",
+      "Convenience Store Woman",
+      "Empire Falls",
+      "Normal People",
+      "A Man Called Ove",
+      "The Coffee Gets Cold",
+      "Before The Coffee Gets Cold",
+      "Sourdough"
+    ],
+    "id": "1jmdcjp",
+    "score": 17
+  },
+  {
+    "query": "Recommendations. Kindly suggest a book. My boyfriend and I have decided to read books since we both love to read. We have decided to read st at least one book a month. We want to start with comedy. We will be glad if we could have some recommendations and options.Thanks",
+    "books": [
+      "Interior Chinatown",
+      "Three Men in a Boat",
+      "Murder Your Employer"
+    ],
+    "id": "1jmnxjm",
+    "score": 2
+  },
+  {
+    "query": "Which book should I read? I am thing of buying a book and I have two books in my mind 1-The Notebook and The Kite Runner. Can y'all suggest me which book to read first? Thank you!",
+    "books": [
+      "The Kite Runner",
+      "The Kite Runner"
+    ],
+    "id": "1jmrjs6",
+    "score": 1
+  },
+  {
+    "query": "Exploring Japanese culture from foreigner's perspective books I love books that explore Japan and Japanese culture, especially historical fiction or love stories between Japanese and westerners. I'm looking for more books like: Winds of Mitamura by John Ball,  Miss One Thousand Spring Blossoms by John Ball,  Shogun by James Clavell,  Memoirs of a Geisha by Arthur Golden,  Sayonara by James A. Michener.  Even liked Abroad in Japan by Chris Broad even though it's not fiction and more autobiographical.",
+    "books": [
+      "A Japanese Mirror",
+      "The Pure Land",
+      "The Pure Land*",
+      "The Samurai\u2019s Garden",
+      "The Thousand Autumns of Jacob de Zoet",
+      "The Teahouse Fire",
+      "An Artist of the Floating World",
+      "A Pale View of Hills",
+      "Silent Honor"
+    ],
+    "id": "1jmrfxx",
+    "score": 1
+  },
+  {
+    "query": "Astrophysics books for non-astro physicist hii, i am very interested in reading more on the formation of the solar system, the planets, stars, constellation and i am wondering if there are book recommendations for beginners not in this field of study? thank you in advance!!!",
+    "books": [
+      "Merlin's Tour of the Universe",
+      "Astrobiology"
+    ],
+    "id": "1jmr5pl",
+    "score": 1
+  },
+  {
+    "query": "Books about old organisations/cities made new suggestions I'm after a series that focuses on a organisation/city/nation that was previously powerful or in its prime but has suffered a loss of power/people/cause or a slow winding down of its abilities but then through a new discovery or new character, can rebuild and rediscover it's purpose and grow.  Examples would be the Rivers of London series or Ankh-Morpork over the Discworld series.   Thanks",
+    "books": [
+      "Witch king"
+    ],
+    "id": "1jmqvh9",
+    "score": 1
+  },
+  {
+    "query": "Laura Ingalls Wilder vibes Looking for suggestions on books that are similar to the Little House series by Laura Ingalls Wilder. Or anything that takes place in North America in the 1700 and 1800s.",
+    "books": [
+      "Sarah, plain and tall",
+      "\u201cThe Orphan Train\u201d",
+      "The World of Laura Ingalls Wilder",
+      "The Orphan Train",
+      "Prairie Fires",
+      "Little House",
+      "The Birchbark House",
+      "The Last of the Mohicans",
+      "White Water, Still Water",
+      "The Wilder Life"
+    ],
+    "id": "1jmm0v2",
+    "score": 2
+  },
+  {
+    "query": "Freedom from Control I'm looking for something like The Truman Show or The Giver. Where someone lives in a manufactured reality or \"utopia\" that they escape from or learn about.   I prefer novellas or shorter novels.",
+    "books": [
+      "Amatka",
+      "The Giver",
+      "*Amatka*",
+      "The Ferryman",
+      "Shades of Grey",
+      "The Stepford Wives",
+      "Logan's Run"
+    ],
+    "id": "1jmlxhm",
+    "score": 2
+  },
+  {
+    "query": "Suggest me a book you read solely because of its cover. They say don\u2019t judge a book by its cover. Personally I\u2019ve picked up random books at the library and read them simply because the cover was interesting.  The latest was Good Morning, Monster: A Therapist Shares Five Heroic Stories of Emotional Recovery by Catherine Gildiner.  Give me your book suggestions.",
+    "books": [
+      "The Secret History",
+      "The Windup Girl",
+      "Look Who\u2019s Back",
+      "The Mountain in the Sea",
+      "Starter Villain",
+      "The Ethical Assassin",
+      "The Martian",
+      "Tiger Lily"
+    ],
+    "id": "1jm9y3e",
+    "score": 21
+  },
+  {
+    "query": "Best book to learn more about fascism Can you recommend to me a book to learn more about fascism? Looking for something fairly engaging, as balanced and objective as possible, and I would particularly like to understand better the draw of why it is compelling.",
+    "books": [
+      "The Origins of Totalitarianism",
+      "Blackshirts and reds",
+      "The True Believer: Thoughts on the Nature of Mass Movements"
+    ],
+    "id": "1jmqcl3",
+    "score": 0
+  },
+  {
+    "query": "I've a huge baby fever rn, suggest me a book with cute babies in it, motherhood, family etc Like I've a huge baby fever right now. I searched up this a lot, but almost all book recs that i check out about babies, children, pregnancy, mothers or motherhood or simply about family is about the negative experiences, the body horror of it all, misogyny, fucked up family dynamics, horrible husband, evil psychopathic children, narcissistic mothers etc.   So please do recommend me books with positivity in it!! With cute little children and the ups and downs of being a mother, or even a father.   I'm up for books with good and helathy family dynamics with older children or teenagers even, like that movie \"Mummy\"!! Like a family on an adventure.  Also please note,I DON'T want to read about how horrible and risky and awful pregnancy and childbearing and motherhood is for women.   I'm up for all genre, except horror NOTHING LIKE PET SEMETERY, although that would appreciate now I'm also wanting to read that \"Family in an action or adventure sequence\" Thing like in Mummy franchise and that one Movie of Indiana Jones.   Thank you!!",
+    "books": [
+      "This Is How It Always Is"
+    ],
+    "id": "1jmqakt",
+    "score": 2
+  },
+  {
+    "query": "Suggest me an adventure book with dinosaurs for a 10 year old Hi everyone, my son loves dinosaurs and has read every \u201cencyclopedia\u201d type book we can find but he\u2019s wanting to read more things like Jurassic park or even magic tree house with dinosaurs, if it\u2019s a series even better.  Please help",
+    "books": [
+      "Dinotopia",
+      "Dactyl Hill Squad",
+      "The Shy Stegosaurus of Cricket Creek",
+      "Don\u2019t Disturb the Dinosaurs",
+      "The Mystery of the Stolen Dinosaur Bones",
+      "Oona Finds an Egg",
+      "Dinosaur Detectives",
+      "The Christmasaurus",
+      "Dinosaur Trouble",
+      "Dinosaurs Before Dark",
+      "Dactyl Hill Squad",
+      "Digging for Dinos",
+      "Moon Girl and Devil Dinosaur",
+      "How to Hog Tie a T-Rex",
+      "Dino Lab",
+      "Tyrannosaurus Wrecks",
+      "Dinosaur Disaster",
+      "The Secret Explorers",
+      "T-Rex vs Robo Dog 3000",
+      "Knights vs. Dinosaurs",
+      "The Talking T-Rex",
+      "Dodging Dinosaurs",
+      "The Enormous Egg",
+      "The Test of Time"
+    ],
+    "id": "1jmldnf",
+    "score": 2
+  },
+  {
+    "query": "Suggestion.... Suggest a book for self help(productivity/time management and self reflection)for an 18 yr",
+    "books": [
+      "The ruthless elimination of hurry",
+      "The Executive Functioning Workbook for Teens"
+    ],
+    "id": "1jmpv11",
+    "score": 1
+  },
+  {
+    "query": "Suggest a fantasy mystery book I want to read a fantasy book that also includes some mystery. I like fast paced books with female leads.",
+    "books": [
+      "The Tainted Cup",
+      "*Witch King*",
+      "Witch King",
+      "Discount Armageddon"
+    ],
+    "id": "1jmpspl",
+    "score": 1
+  },
+  {
+    "query": "fantasy book for my boyfriend and i to read I\u2019ve been trying to find a book for my boyfriends to read with me but all of my fantasy have too much romance or have the men written by women so it\u2019s not exactly relatable for him to read. he enjoyed the Hobbit and LOTR series and plays video games like elden ring  does anyone have fantasy book suggestions, preferably from male POV? medieval fantasy is preferred!!",
+    "books": [
+      "The Curse of Chalion",
+      "unbelievable",
+      "Mistborn"
+    ],
+    "id": "1jmpipz",
+    "score": 1
+  }
+]
