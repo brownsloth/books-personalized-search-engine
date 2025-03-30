@@ -91,36 +91,22 @@ At present, the system indexes Reddit posts using semantic search via [FAISS](ht
 
 ### **Backend**
 
-bash
-
-CopyEdit
-
+```bash
 \# From the project root
-
 cd backend
-
 python3 -m venv venv
-
 source venv/bin/activate
-
 pip install -r requirements.txt
-
 \# Run the API
-
 uvicorn search_api:app --reload
-
+```
 ### **Frontend**
 
-bash
-
-CopyEdit
-
+```bash
 cd frontend
-
 npm install
-
 npm run dev
-
+```
 ## **🧠 Summary**
 
 This project is a strong **foundation** for a smarter recommendation tool based on community knowledge. While current retrieval and ranking are static and heuristic, the framework allows for rapid extension into a learning-based and feedback-driven engine.
